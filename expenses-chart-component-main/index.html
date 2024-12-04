@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="link rel=" preconnect href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="header">
+          <div>
+            <p class="balance">My balance</p>
+            <p class="total-amount">$921.48</p>
+          </div>
+          <div>
+            <img src="./images/logo.svg" />
+          </div>
+        </div>
+        <div class="main-content">
+          <h1>Spending - Last 7 days</h1>
+          <div class="bar-chart">
+            <div>
+              <div class="mon-chart"></div>
+              <p class="chart-days">mon</p>
+            </div>
+
+            <div>
+              <div class="tue-chart"></div>
+              <p class="chart-days">tue</p>
+            </div>
+            <div>
+              <div class="wed-chart"></div>
+              <p class="chart-days">wed</p>
+            </div>
+            <div>
+              <div class="thur-chart"></div>
+              <p class="chart-days">thu</p>
+            </div>
+            <div>
+              <div class="fri-chart"></div>
+              <p class="chart-days">fri</p>
+            </div>
+            <div>
+              <div class="sat-chart"></div>
+              <p class="chart-days">sat</p>
+            </div>
+            <div>
+              <div class="sun-chart"></div>
+              <p class="chart-days">sun</p>
+            </div>
+          </div>
+          <hr />
+          <div class="footer">
+            <div>
+              <p class="month">Total this month</p>
+              <p class="total-fund">$478.33</p>
+            </div>
+            <div>
+              <p class="bold">+24%</p>
+              <p class="month">from the last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

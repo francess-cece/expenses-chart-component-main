@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans";
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: hsl(10, 79%, 65%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 10px;
+}
+.balance {
+  color: hsl(27, 66%, 92%);
+}
+.total-amount {
+  color: hsl(27, 66%, 92%);
+  font-size: 50px;
+}
+
+.mon-chart {
+  /* width: 10%; */
+  height: 10vh;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  margin: 10px;
+  margin-top: 5rem;
+  padding: 20px;
+}
+
+.tue-chart {
+  /* width: 10%; */
+  height: 25vh;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.wed-chart {
+  height: 35vh;
+  background-color: hsl(186, 34%, 60%);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px;
+}
+.thur-chart {
+  height: 22vh;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px;
+}
+.fri-chart {
+  height: 15vh;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px;
+}
+.sat-chart {
+  height: 30vh;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 8px;
+}
+.sun-chart {
+  height: 20vh;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px;
+}
+.bar-chart {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  align-items: flex-end;
+}
+
+.tue {
+  margin-left: 10px;
+}
+.chart-days {
+  text-align: center;
+  color: grey;
+}
+.main-content {
+  width: 86%;
+  height: 70vh;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+margin-left: 2.2rem;
+}
+h1 {
+  margin-left: 2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-left: 2rem;
+}
+.total-fund {
+  font-weight: bold;
+  font-size: 30px;
+}
+.month {
+  color: grey;
+} 
+.bold {
+  font-weight: bold;
+  margin-top: 1rem;
+    text-align: right;
+  
+}
+hr {
+  margin: 10px;
+  color: grey;
+}
+  /*/
+.main-content {
+  background-color: #ffffff;
+  width: 90%;
+  height: 100vh;
+  margin: 10px;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+h1 {
+  text-align: center;
+  margin: 40px;
+}
+.mon-chart {
+  width: 10%;
+  height: 20%;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+}
+.tue-chart {
+  width: 10%;
+  height: 40%;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+}
+
+.wed-chart {
+  width: 10%;
+  height: 60%;
+  background-color: hsl(186, 34%, 60%);
+  border-radius: 4px;
+}
+.thur-chart {
+  width: 10%;
+  height: 35%;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+}
+
+.fri-chart {
+  width: 10%;
+  height: 25%;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+}
+
+.sat-chart {
+  width: 10%;
+  height: 55%;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+}
+.sun-chart {
+  width: 10%;
+  height: 30%;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+}
+.pie-chart {
+  display: flex;
+  width: 100%;
+  width: 100vh;
+  display: flex;
+}//
